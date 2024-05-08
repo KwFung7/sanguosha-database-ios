@@ -14,7 +14,7 @@
 
 @implementation OtherViewController
 
-@synthesize otherButton, emailButton, blogButton, aboutImage;
+@synthesize otherButton, emailButton, aboutImage;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -42,7 +42,7 @@
         MFMailComposeViewController *compose = [[MFMailComposeViewController alloc] init];
         compose.mailComposeDelegate = self;
         compose.navigationBar.tintColor = [UIColor whiteColor];
-        [compose setToRecipients: [NSArray arrayWithObjects: @"lingfung09@hotmail.com", nil]];
+        [compose setToRecipients: [NSArray arrayWithObjects: @"kwfxng@gmail.com", nil]];
         [self presentViewController: compose animated: true completion: nil];
     }
 }

@@ -19,7 +19,6 @@
 		0A1C89E21DB5221F00BD9587 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1C89E11DB5221F00BD9587 /* AudioToolbox.framework */; };
 		0A1C89E41DB5222700BD9587 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A1C89E31DB5222700BD9587 /* AdSupport.framework */; };
 		0A25D44D1DB4C5130048C5D8 /* OtherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A25D44C1DB4C5130048C5D8 /* OtherViewController.m */; };
-		0A25D4501DB4E3A10048C5D8 /* BlogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A25D44F1DB4E3A10048C5D8 /* BlogViewController.m */; };
 		0A25D4531DB518580048C5D8 /* HeroViewFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A25D4521DB518580048C5D8 /* HeroViewFooter.m */; };
 		0AA41D061DB0D95800949623 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA41D051DB0D95800949623 /* Assets.xcassets */; };
 		0AA41D091DB1037800949623 /* HeroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AA41D081DB1037800949623 /* HeroViewController.m */; };
@@ -51,8 +50,6 @@
 		0A1C89E31DB5222700BD9587 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		0A25D44B1DB4C5130048C5D8 /* OtherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OtherViewController.h; sourceTree = "<group>"; };
 		0A25D44C1DB4C5130048C5D8 /* OtherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OtherViewController.m; sourceTree = "<group>"; };
-		0A25D44E1DB4E3A10048C5D8 /* BlogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogViewController.h; sourceTree = "<group>"; };
-		0A25D44F1DB4E3A10048C5D8 /* BlogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogViewController.m; sourceTree = "<group>"; };
 		0A25D4511DB518580048C5D8 /* HeroViewFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeroViewFooter.h; sourceTree = "<group>"; };
 		0A25D4521DB518580048C5D8 /* HeroViewFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeroViewFooter.m; sourceTree = "<group>"; };
 		0AA41D051DB0D95800949623 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -161,8 +158,6 @@
 				0AA83E7A1DB3A6570073B04C /* CardDetailViewController.m */,
 				0A25D44B1DB4C5130048C5D8 /* OtherViewController.h */,
 				0A25D44C1DB4C5130048C5D8 /* OtherViewController.m */,
-				0A25D44E1DB4E3A10048C5D8 /* BlogViewController.h */,
-				0A25D44F1DB4E3A10048C5D8 /* BlogViewController.m */,
 				0AF96F651DAB5E7000633FB7 /* Main.storyboard */,
 				0AF96F6D1DAB5E7000633FB7 /* LaunchScreen.storyboard */,
 				0AA41D051DB0D95800949623 /* Assets.xcassets */,
@@ -259,7 +254,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0AA83E761DB243C20073B04C /* CardViewController.m in Sources */,
-				0A25D4501DB4E3A10048C5D8 /* BlogViewController.m in Sources */,
 				0A25D44D1DB4C5130048C5D8 /* OtherViewController.m in Sources */,
 				0A25D4531DB518580048C5D8 /* HeroViewFooter.m in Sources */,
 				0AE23D291DAD3EB8002E2281 /* HeroViewHeader.m in Sources */,
