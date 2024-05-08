@@ -417,6 +417,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KwFung.SanguoshaDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -439,6 +440,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ld_classic";
 				PRODUCT_BUNDLE_IDENTIFIER = com.KwFung.SanguoshaDatabase;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
