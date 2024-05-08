@@ -48,7 +48,7 @@ static NSString * const reuseFooterIdentifier = @"CustomFooter";
     searchController = [[UISearchController alloc] initWithSearchResultsController: nil];
     [searchController.searchBar sizeToFit];
     searchController.searchResultsUpdater = self;
-    searchController.dimsBackgroundDuringPresentation = false;
+    searchController.obscuresBackgroundDuringPresentation = false;
     self.definesPresentationContext = true;
     [self.searchView addSubview: searchController.searchBar];
     

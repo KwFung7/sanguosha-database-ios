@@ -7,7 +7,7 @@
 
 #import <Foundation/Foundation.h>
 
-#import "GADCustomEventRequest.h"
+#import <GoogleMobileAds/GADCustomEventRequest.h>
 
 @protocol GADCustomEventNativeAdDelegate;
 

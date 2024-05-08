@@ -310,7 +310,7 @@
                             <constraint firstItem="ipW-jy-4ui" firstAttribute="top" secondItem="hLa-Q9-M5J" secondAttribute="bottom" constant="15" id="rvH-QO-xvY"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="其他" id="lZn-VG-go1"/>
+                    <navigationItem key="navigationItem" title="其他" id="lZn-VG-go1" colorLabel="IBBuiltInLabel-Red"/>
                     <connections>
                         <outlet property="aboutImage" destination="hLa-Q9-M5J" id="ciy-Sq-RyX"/>
                         <outlet property="emailButton" destination="b7j-9h-gwh" id="J6b-GD-sOl"/>
