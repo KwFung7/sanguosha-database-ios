@@ -53,7 +53,7 @@ static NSString * const reuseFooterIdentifier = @"CustomFooter";
     [self.searchView addSubview: searchController.searchBar];
     
     /* Initialize Google Mobile Ads with app ID */
-    [GADMobileAds configureWithApplicationID: @"ca-app-pub-4561364336152901~4956407679"];
+    [GADMobileAds configureWithApplicationID: @"ca-app-pub-6784152634624245~8374580706"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -117,8 +117,8 @@ static NSString * const reuseFooterIdentifier = @"CustomFooter";
         
         /* Goodgle mobile ads banner setting */
         footer.bannerView.adSize = kGADAdSizeSmartBannerPortrait;
-        /* Testing footer.bannerView.adUnitID = @"ca-app-pub-3940256099942544/2934735716"; */
-        footer.bannerView.adUnitID = @"ca-app-pub-4561364336152901/6433140870";
+        // footer.bannerView.adUnitID = @"ca-app-pub-3940256099942544/9214589741"; // Test Ads
+        footer.bannerView.adUnitID = @"ca-app-pub-6784152634624245/5086072383";
         footer.bannerView.rootViewController = self;
         [footer.bannerView loadRequest: [GADRequest request]];
         return footer;
